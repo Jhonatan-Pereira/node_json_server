@@ -1,0 +1,16 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "angular-material-crud": "json-server --watch angular-material-crud.json --port 3001",
+    "angular-material-crud-docker": "json-server --watch angular-material-crud.json --port 3001 --host 0.0.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
